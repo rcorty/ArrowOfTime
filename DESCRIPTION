@@ -1,0 +1,29 @@
+Package: ArrowOfTime
+Title: Ensure predictions aren't based on peeking ahead
+Version: 0.0.1
+Authors@R: 
+    person(given = "Robert",
+           family = "Corty",
+           role = c("aut", "cre"),
+           email = "rcorty@gmail.com",
+           comment = c(ORCID = "0000-0002-6787-9051"))
+Description: It has often been said that "prediction is difficult, especially 
+  about the future."  When testing a prediction algorithm, it is essential that
+  the algorithm not have access to data that arose after the moment for which 
+  the prediction is sought.  Said another way, access to future data renders any
+  prediction meaningless. However, due to data management and programming
+  mistakes, it is common for testing to go awry due to accidentally giving an 
+  algorithm access to such "future data".  This is not the fault of the 
+  programmer, but simply due to the lack of an opaque barrier between algorithm
+  and test.  Here, I provide such a barrier.  By using the testing framework
+  provided in this package, researchers can ensure that "future peek" errors
+  are avoided.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.0.2
+Suggests: 
+    testthat (>= 2.1.0)
+Imports: 
+    rlang
