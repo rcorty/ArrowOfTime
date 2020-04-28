@@ -27,3 +27,5 @@ Suggests:
     testthat (>= 2.1.0)
 Imports: 
     rlang
+URL: https://github.com/rcorty/ArrowOfTime
+BugReports: https://github.com/rcorty/ArrowOfTime/issues
