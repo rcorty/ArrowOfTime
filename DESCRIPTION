@@ -1,5 +1,5 @@
 Package: ArrowOfTime
-Title: Ensure predictions aren't based on peeking ahead
+Title: Ensure predictions are based only on past data (not future)
 Version: 0.0.1
 Authors@R: 
     person(given = "Robert",
